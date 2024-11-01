@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e4ba;
+}
+.container {
+    /* border: 1px solid black; */
+    padding: 45px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: tahoma;
+    text-decoration: underline;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.one1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.one1 input {
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+.one1 i {
+    font-size: 20px;
+}
+form button {
+    padding: 10px;
+    width: 8rem;
+    border-radius: 10px;
+    background-color: gray;
+    color: black        ;
+    border: none;
+    font-size: 20px;
+}
+
+
+.select {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 25px; ;
+}
+.select  i {
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+}
+.select a{
+    padding:10px;
+    width: 5rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size:25px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.select button:active {
+    color: #000;
+    background-color: #fff;
+}

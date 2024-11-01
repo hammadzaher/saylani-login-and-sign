@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login & signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body style="background-color: #fff;">
+    <div class="container" style="background-color: #f4e4ba;">
+        <h1>login</h1>
+        <form>
+            <!-- <div class="one1"><i class="fa-solid fa-user"></i><input type="text" id="username" name="username" required placeholder="Username"></div> -->
+            <div class="one1"><i class="fa-solid fa-envelope"></i><input type="email" id="input1" name="email" required placeholder="Email"> </div>
+            <div class="one1"><i class="fa-solid fa-lock"></i><input type="password" id="input2" name="password" required placeholder="Password"></div>
+            <button onclick="checkUser()">login</button>
+            <div class="select">
+                <a href="signup.html">sign up</a>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <a href="login.html">login</a>
+            </div>
+        </form>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
